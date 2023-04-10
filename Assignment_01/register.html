@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <center>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th><a href="home.html"><a href="home.html"><img src="sylani_logo.jpeg" alt=""></a></th>
+                        <th width="70" align="center"><a href="home.html">Home</a></th>
+                        <th width="70" align="center"><a href="about.html">About</a></th>
+                        <th width="70" align="center"><a href="gallery.html">Gallery</a></th>
+                        <th width="70" align="center"><a href="media.html">Media</a></th>
+                        <th width="70" align="center"><a href="contact.html">Contact</a></th>
+                        <th width="70" align="center"><a href="login.html">Login</a></th>
+                        <th width="70" align="center"><a href="register.html">Register</a></th>
+                    </tr>
+                </table>
+            </center>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <center>
+            <h1>This is Login Page</h1>
+            <hr>
+            <h2>Please register to continue</h2>
+            <p>All the Fields are required.</p>
+        </center>
+        <hr>
+        <fieldset style="width: 250px;">
+            <legend>Register</legend>
+            <form action="">
+                <p>
+                    <label for="myName">Full Name:</label><br>
+                    <input type="text" id="muName" placeholder="Please Enter Full Name">
+                </p>
+                <p>
+                    <label for="myEmail">Email:</label><br>
+                    <input type="email" id="myEmail" placeholder="Please Enter valid Email">
+                </p>
+                <p>
+                    <label for="myPassword">Password:</label><br>
+                    <input type="password" id="myPassword" placeholder="Please Enter Password">
+                </p>
+                <p>
+                    <label for="myGender">Gender:</label><br>
+                    <label for="male">Male:</label>
+                    <input type="radio" id="male" name="Gender">
+                    <label for="female">Female:</label>
+                    <input type="radio" id="female" name="Gender">
+                </p>
+                <p>
+                    <label for="myHobbies">Hobbies:</label><br>
+                    <label for="music">Music:</label>
+                    <input type="checkbox" id="music">
+                    <label for="art">Art:</label>
+                    <input type="checkbox" name="" id="art">
+                    <label for="painting">Painting:</label>
+                    <input type="checkbox" id="painting">
+                </p>
+                <p>
+                    <label for="">Country:</label><br>
+                    <select name="country" id="mycountry">
+                        <option value="">Saudi Arabia</option>
+                        <option value="">India</option>
+                        <option value="" selected>Pakistan</option>
+                        <option value="">England</option>
+                        <option value="">Austrailia</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="">DOB:</label><br>
+                    <input type="date">
+                </p>
+                <p><label for="">Upload your Photo:</label>
+                <input type="file">
+            </p>
+            <p>
+                <button>Register</button>
+            </p>
+            <p><a href="login.html">Already a User?</a></p>
+            </form>
+        </fieldset>
+    </main>
+    <br>
+    <hr>
+    <footer>
+        <center>
+            <p>Copyright &copy; 2022. All rights reserved.</p>
+        </center>
+    </footer>
+    <hr>
+</body>
+
+</html>
